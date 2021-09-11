@@ -58,6 +58,7 @@ export default function Home() {
           src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
           width={300}
           height={100}
+          alt="google logo"
         />
 
         <div
@@ -90,7 +91,7 @@ export default function Home() {
             onClick={search}
             className="btn hover:ring-1 focus:outline-none active:ring-gray-300 hover:shadow-md"
           >
-            I'm Feeling Lucky
+            I&apos;m Feeling Lucky
           </button>
         </div>
       </form>
